@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "exclude_matches": ["https://*.ogame.gameforge.com/game/admin2/*"],
-      "matches": ["http://ogame.e46mods.com/*"],
+      "matches": ["http://s161-nl.ogame.e46mods.com/*"],
       "js": ["main.js"],
       "css": ["global.css"],
       "run_at": "document_start"
@@ -30,7 +30,7 @@
     "256": "assets/images/logo512.png",
     "512": "assets/images/logo512.png"
   },
-  "permissions": ["storage", "http://ogame.e46mods.com/*"],
+  "permissions": ["storage", "http://s161-nl.ogame.e46mods.com/*"],
   "background": {
     "scripts": ["background.js"]
   }
